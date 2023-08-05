@@ -64,14 +64,9 @@ The content is developed using a variety of technologies, including HTML, CSS, a
 - **About**
 - **Main Programs**
 - **Feature Speakers**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 👁 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://melkamu372.github.io/capstone-project/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [Live Demo Link](https://melkamu372.github.io/capstone-project/)  <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -95,7 +90,7 @@ Clone this repository to your desired folder:
  
 ### Install
 
-Install this project with:
+Install this project with: <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
 
 ```
 npm install
@@ -122,9 +117,9 @@ npx eslint .
 ```
 npx eslint --fix filename.js
 ```
-### Usage
+### Usage     
 
-##### To run the project, execute the following command:
+##### To run the project, execute the following command:  <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
 
 1. Open the project folder 
 2. Double-click on the index file (index.html)
@@ -147,11 +142,9 @@ You can deploy this project using: Deploy this project on a github follow these 
 6. Click on the Save button.
 7. Once the changes have been saved, your website will be deployed to GitHub Page
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 👥 Authors <a name="authors"></a>
 
-  **Melkamu Tessema** 
+  **Melkamu Tessema**  <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
 
 <div align="">
 <a href="https://github.com/https://github.com/melkamu372" target="_blank">
@@ -161,14 +154,11 @@ You can deploy this project using: Deploy this project on a github follow these 
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>  
 </div> 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add back end**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -176,13 +166,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give me a star.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+If you like this project give me a star. <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 I would like to thank every who continues supporting me.
@@ -190,11 +178,6 @@ I would like to thank every who continues supporting me.
 The original design idea for this concert website was inspired by by <a href="https://www.behance.net/adagio07"> Cindy Shin work on Behance</a> 
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](./MIT.md) licensed. <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
