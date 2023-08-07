@@ -1,9 +1,7 @@
 <a name="readme-top"></a>
-
 <div align="">
  <h1> 🎯  Ethio-Concert Capstone Project</h1>
 </div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -28,8 +26,8 @@
 
  #   🎯 Ethio-Concert : Capstone Project <a name="about-project"></a>
 
-**Ethio-Concert**  is a website for a concert that displays a detailed description of the concert schedules,main programs,featured speakers and partners.
-The content is developed using a variety of technologies, including HTML, CSS, and JavaScript. The content is also ois responsible for mobile and desktop users that pepople can easily access it.
+**Ethio-Concert**  is a website for a concert that displays a detailed description of the concert schedules,main programs,featured players and partners.
+The content is developed using a variety of technologies, including HTML, CSS, and JavaScript. The content is also responsible for mobile and desktop users that pepople can easily access it.
 
 ## 💻 Built With <a name="built-with"></a>
 
@@ -59,13 +57,11 @@ The content is developed using a variety of technologies, including HTML, CSS, a
 </details>
 
 ### Key Features <a name="key-features"></a>
-
 - **Home**
 - **About**
 - **Main Programs**
 - **Feature Speakers**
 ## 👁 Live Demo <a name="live-demo"></a>
-
 - [Live Demo Link](https://melkamu372.github.io/capstone-project/)  <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -144,7 +140,7 @@ You can deploy this project using: Deploy this project on a github follow these 
 
 ## 👥 Authors <a name="authors"></a>
 
-  **Melkamu Tessema**  <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
+  **Melkamu Tessema**   <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
 
 <div align="">
 <a href="https://github.com/https://github.com/melkamu372" target="_blank">
@@ -158,15 +154,11 @@ You can deploy this project using: Deploy this project on a github follow these 
 
 - [ ] **Add back end**
 
-
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
-
-
 
 ## ⭐️ Show your support <a name="support"></a>
 
