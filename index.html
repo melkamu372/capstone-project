@@ -1,56 +1,356 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jano | Concert Ethiopia </title>
+
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+
 </head>
 <body>
+   
     <header class="header hidden">
+   
         <nav class="header-top">
+   
             <div class="container row">
+   
                 <ul class="social-list col">
+   
                     <li class="social-item">
+   
                         <a href="https://www.facebook.com/Janoband" target="_blank" rel="noopener">
+   
                             <span class="social-icon fa-brands fa-facebook-f "></span></a>
-                    </li>
-                    <li class="social-item">
-                        <a href="#" target="_blank" rel="noopener">
-                            <span class="social-icon fa-brands fa-twitter "></span></a>
+   
+                        </li>
+                    
+                        <li class="social-item">
+                    
+                            <a href="#" target="_blank" rel="noopener">
+                    
+                                <span class="social-icon fa-brands fa-twitter "></span></a>
                     </li>
                 </ul>
 
                 <ul class="other-list col">
-                    <li class="other-item"><a href="#" class="other-link">English</a></li>
-                    <li class="other-item"><a href="#" class="other-link">My page</a></li>
-                    <li class="other-item"><a href="#" class="other-link">Logout</a></li>
+                  
+                    <li><a href="#" class="other-link">English</a></li>
+                  
+                    <li><a href="#" class="other-link">My page</a></li>
+                  
+                    <li><a href="#" class="other-link">Logout</a></li>
+                
                 </ul>
+            
             </div>
+        
         </nav>
         
         <div class="header-bottom">
+           
             <div class="container row">
+               
                 <div class="main-logo-cont">
+                   
                     <a href="#" class="main-logo-link">
+                   
                         <img src="./assets/backgrounds/header.jpg" alt="main-logo-image" class="main-logo">
+                   
                     </a>
                 </div>
 
                 <nav class="nav">
+
                     <ul class="nav-list row">
+                       
                         <li class="nav-item"><a href="about.html" class="nav-link red">About</a></li>
+                       
                         <li class="nav-item"><a href="#program" class="nav-link">Program</a></li>
+                       
                         <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
+                       
                         <li class="nav-item"><a href="#partner" class="nav-link">Sponsor</a></li>
+                       
                         <li class="nav-item"><a href="#featured" class="nav-link">News</a></li>
+                       
                         <li class="nav-item"><a href="#" class="nav-link red red-border">JANO Campaign</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
+    
+    <section class="head headline">
+        <header class="header unhidden">
+           
+            <button class="ham-btn" id="ham-btn">
+           
+                <img src="./assets/icons/hamburger-icon.png" alt="hamburger-icon" class="ham-img">
+           
+            </button>
+
+            <menu class="menu hid" id="menu">
+           
+                <button class="ham-btn close-btn" id="close-btn">
+           
+                    <img src="./assets/icons/close-btn.png" alt="hamburger-icon" class="ham-img">
+           
+                </button>
+           
+                <nav class="nav menu-nav">
+           
+                    <ul class="nav-list menu-nav-list row" id="menu-nav-list">
+           
+                        <li class="nav-item menu-nav-item"><a href="index.html" class="nav-link menu-nav-link">Home</a></li>
+           
+                        <li class="nav-item menu-nav-item"><a href="about.html" class="nav-link menu-nav-link red">About</a></li>
+           
+                        <li class="nav-item menu-nav-item"><a href="#program" class="nav-link menu-nav-link">Program</a></li>
+           
+                        <li class="nav-item menu-nav-item"><a href="#featured" class="nav-link menu-nav-link">Featured Musicians</a></li>
+           
+                        <li class="nav-item menu-nav-item"><a href="#partner" class="nav-link menu-nav-link">Sponsor</a></li>
+           
+                        <li class="nav-item menu-nav-item"><a href="#" class="nav-link menu-nav-link red red-border">JANO Campaign</a></li>
+                    </ul>
+                </nav>
+            </menu>
+        </header>
+        
+        <div class="headline-cont cont" id="home">
+        
+            <p class="greeting-title">"Hello! Fans of Ethiopian music"</p>
+        
+            <div class="main-title-cont">
+        
+                <h1 class="main-title">A New Year, a New Sound: with Jano Concert Ethiopia</h1>
+        
+            </div>
+           
+            <div class="desc-container">
+           
+                <p class="concert-desc">Celebrate the new year with the sounds of Ethiopia! Well-known diverse artists and organizers will present an astounding variety of performances, including traditional and contemporary Ethiopian music, dance, and theater.</p>
+           
+           
+            </div>
+           
+            <h2 class="concert-date">2023.9.3(Sat) ~ 2023.9.4(SUN)</h2>
+           
+            <p class="concert-location">@Meskel Square, Addis Ababa, Ethiopia</p>
+        
+        </div>
+    </section>
+
+    <main class="main" id="program">
+    
+        <div class="container">
+
+            <h3 class="main-program">Main Program</h3>
+    
+            <div class="line"></div>
+            
+            <div class="row">
+            
+                <div class="col">
+            
+                    <img src="./assets/icons/icon_lecture.svg" alt="card-icon" class="card-icon">
+            
+                    <h4 class="card-title">Traditional Music </h4>
+            
+                    <p class="card-desc">Listen to the musicians from various cities about the music that they will be performing.</p>
+            
+                </div>
+            
+                <div class="col">
+            
+                    <img src="./assets/icons/icon_Exhibition.svg" alt="card-icon" class="card-icon">
+            
+                    <h4 class="card-title">Exhibition</h4>
+            
+                    <p class="card-desc">Appreciate various music pieces from jazz legends from the past and the present.</p>
+            
+                </div>
+                <div class="col">
+            
+                    <img src="./assets/icons/icon_forum.svg" alt="card-icon" class="card-icon">
+            
+                    <h4 class="card-title">Forum</h4>
+            
+                    <p class="card-desc">Take the time to talk with the musicians and express your ideas.</p>
+                </div>
+                <div class="col">
+                   
+                    <img src="./assets/icons/icon_workshop.svg" alt="card-icon" class="card-icon">
+                   
+                    <h4 class="card-title">Modern music</h4>
+                   
+                    <p class="card-desc">Asking the jazz musicians any question regarding jazz related issues.</p>
+                </div>
+                <div class="col">
+                   
+                    <img src="./assets/icons/icon_ignite.svg" alt="card-icon" class="card-icon">
+                   
+                    <h4 class="card-title">Ignite</h4>
+                   
+                   
+                    <p class="card-desc">Get opportunities to network with the jazz bands, also after the festival.</p>
+                </div>
+            </div>
+            <div class="btn-cont unhidden">
+                
+                <button class="join-btn">Get your tickets now</button>
+            
+            </div>
+            <div class="btn-cont hidden">
+            
+                <button class="join-btn">See the whole program</button>
+            
+            </div>
+        </div>
+    </main>
+
+    <section class="featured" id="featured">
+        
+        <div class="container">
+        
+            <h3 class="main-program featured-musicians">Featured Musicians</h3>
+        
+            <div class="line"></div>
+        
+            <div class="row">
+        
+                <div class="col musician-card">
+        
+                    <div class="musician-img-cont">
+        
+                        <img src="" alt="musician-img" class="musician-img" id="musician-img1">
+        
+                    </div>
+                    <div class="musician-desc">
+        
+                        <h4 class="musician-name" id="musician-name1"></h4>
+        
+                        <p class="musician-title" id="musician-title1"></p>
+        
+                        <div class="line line2"></div>
+        
+                        <p class="musician-detail" id="musician-detail1"></p>
+                    </div>
+                </div>
+                <div class="col musician-card">
+        
+                    <div class="musician-img-cont">
+        
+                        <img src="" alt="musician-img" class="musician-img" id="musician-img2">
+        
+                    </div>
+                    <div class="musician-desc">
+        
+                        <h4 class="musician-name" id="musician-name2"></h4>
+        
+                        <p class="musician-title" id="musician-title2"></p>
+        
+                        <div class="line line2"></div>
+        
+                        <p class="musician-detail" id="musician-detail2"></p>
+                    </div>
+                </div>
+                <div class="col musician-card">
+                    <div class="musician-img-cont">
+        
+                        <img src="" alt="musician-img" class="musician-img"  id="musician-img3">
+        
+                    </div>
+                    <div class="musician-desc">
+        
+                        <h4 class="musician-name" id="musician-name3"></h4>
+        
+                        <p class="musician-title" id="musician-title3"></p>
+        
+                        <div class="line line2"></div>
+        
+                        <p class="musician-detail" id="musician-detail3"></p>
+        
+                    </div>
+        
+                </div>
+        
+                <div class="col musician-card">
+        
+                    <div class="musician-img-cont">
+        
+                        <img src="" alt="musician-img" class="musician-img"  id="musician-img4">
+        
+                    </div>
+        
+                    <div class="musician-desc">
+        
+                        <h4 class="musician-name" id="musician-name4"></h4>
+        
+                        <p class="musician-title" id="musician-title4"></p>
+        
+                        <div class="line line2"></div>
+        
+                        <p class="musician-detail" id="musician-detail4"></p>
+                    </div>
+                </div>
+        
+                <div class="col musician-card">
+        
+                    <div class="musician-img-cont">
+        
+                        <img src="" alt="musician-img" class="musician-img"  id="musician-img5">
+        
+                    </div>
+        
+                    <div class="musician-desc">
+        
+                        <h4 class="musician-name" id="musician-name5"></h4>
+        
+                        <p class="musician-title" id="musician-title5"></p>
+        
+                        <div class="line line2"></div>
+        
+                        <p class="musician-detail" id="musician-detail5"></p>
+                    </div>
+                </div>
+        
+                <div class="col musician-card">
+        
+                    <div class="musician-img-cont">
+        
+                        <img src="" alt="musician-img" class="musician-img" id="musician-img6">
+        
+                    </div>
+        
+                    <div class="musician-desc">
+        
+                        <h4 class="musician-name" id="musician-name6"></h4>
+        
+                        <p class="musician-title" id="musician-title6"></p>
+        
+                        <div class="line line2"></div>
+        
+                        <p class="musician-detail" id="musician-detail6"></p>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </div>
+    </section>
+
 
 
     <script src="./script/menu.js"></script>
