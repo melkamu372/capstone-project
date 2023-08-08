@@ -62,7 +62,7 @@ The content is developed using a variety of technologies, including HTML, CSS, a
 - **Main Programs**
 - **Feature Speakers**
 ## 👁 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://melkamu372.github.io/capstone-project/)  <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
+- [Live Demo Link](https://melkamu372.github.io/capstone-project/) 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
