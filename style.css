@@ -197,7 +197,8 @@ button {
 .main {
   background: var(--primary-color);
   background-image: url(assets/backgrounds/music-bg-2.jpg);
-  background-size: 100%;
+  width: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   color: var(--secondary-color);
   padding: 2em 0.75em;
