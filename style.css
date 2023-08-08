@@ -194,6 +194,18 @@ button {
   max-width: 550px;
 }
 
+.concert-contact,
+.concert-email-par {
+  font-size: 0.75rem;
+  line-height: 0.5cm;
+}
+
+.concert-email {
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
 .main {
   background: var(--primary-color);
   background-image: url(assets/backgrounds/music-bg-2.jpg);
@@ -738,7 +750,8 @@ button {
   }
 
   .footer {
-    background: var(--secondary-color);
+    /* background: var(--secondary-color); */
+    background: rgba(255, 255, 255, 0.7);
   }
 
   .footer-about {
