@@ -464,5 +464,291 @@
     opacity: 0.9;
   }
   
+  @media screen and (min-width: 768px) {
+    
+    .unhidden {
+      display: none;
+    }
 
+    .hidden {
+      display: block;
+    }
+  
+    .container {
+      width: 80%;
+      max-width: 1280px;
+    }
+  
+    .header {
+      position: sticky;
+      margin: 0;
+      padding: 0;
+      top: 0;
+      z-index: 50;
+    }
+  
+    .header-top {
+      background: var(--primary-color);
+      padding: 0.25em 0;
+    }
+  
+    .social-icon,
+    .other-link {
+      color: var(--secondary-color);
+    }
+  
+    .header-top .row {
+      justify-content: flex-end;
+      gap: 1.5em;
+    }
+  
+    .header-top .col {
+      gap: 1em;
+    }
+  
+    
+  
+    .main-logo-cont {
+      width: 20%;
+      max-width: 190px;
+    }
+  
+    .main-logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .header-bottom {
+      background: #fff;
+      padding: 0.25em 0;
+    }
+
+    .header-bottom .row {
+      justify-content: space-between;
+      align-items: center;
+      gap: 0;
+    }
+  
+    .nav-item + .nav-item {
+      margin-left: 2.75em;
+    }
+  
+    .nav-link {
+      color: var(--primary-color);
+    }
+  
+    .red {
+      color: var(--highlight-color);
+    }
+  
+    .red-border {
+      border: 4px solid var(--highlight-color);
+      padding: 0.5em 1em;
+      margin-left: 1.25em;
+    }
+  
+    .nav-list {
+      gap: 2.5rem;
+    }
+  
+    .home {
+      text-align: right;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 2em 0;
+      padding: 0 0.5em;
+    }
+  
+    .home-color {
+      color: var(--primary-color);
+    }
+  
+    .home a {
+      color: var(--primary-color);
+      padding: 0 0.25em;
+    }
+  
+    .home .fa-angle-down {
+      color: var(--highlight-color);
+    }
+  
+    .headline {
+      position: relative;
+      padding: 5em 0;
+    }
+  
+    .headline .cont {
+      width: 80%;
+      max-width: 1280px;
+      padding-top: 2em;
+      margin-bottom: 1em;
+    }
+  
+    .greeting-title {
+      font-size: 2rem;
+    }
+  
+    .main-title {
+      font-size: 3rem;
+    }
+  
+    .desc-container {
+      width: 60%;
+    }
+  
+    .main {
+      padding: 3em 0;
+    }
+  
+    .main-program {
+      font-size: 1.75rem;
+    }
+  
+    .main .row {
+      margin: 3em auto;
+      gap: 0.25em;
+      justify-content: center;
+    }
+  
+    .main .col {
+      display: block;
+      width: 19%;
+      text-align: center;
+    }
+  
+    .featured .col {
+      width: 45%;
+    }
+  
+    .past-concert .col {
+      width: 45%;
+    }
+  
+    .main .col:hover {
+      border: 2px solid var(--secondary-color);
+    }
+  
+    .card-icon {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .card-title {
+      width: 100%;
+      margin: 0.25em 0;
+    }
+  
+    .btn-cont {
+      margin-bottom: 2.5em;
+    }
+  
+    .join-btn {
+      color: var(--secondary-color);
+      text-transform: uppercase;
+      text-decoration: underline;
+      background: none;
+      padding: 0;
+      font-size: 1.25rem;
+    }
+  
+    .featured .row {
+      margin: 2.5em 0;
+      gap: 1.5em;
+    }
+  
+    .musician-name {
+      font-size: 1.25rem;
+    }
+  
+    .musician-title,
+    .musician-detail {
+      font-size: 1rem;
+    }
+  
+    .partner .container {
+      width: 60%;
+    }
+  
+    .footer .row {
+      flex-wrap: nowrap;
+      gap: 0;
+      justify-content: flex-start;
+    }
+  
+    .footer .logo {
+      width: 100%;
+    }
+  
+    .rights {
+      width: 100%;
+    }
+  
+    .main-title-cont {
+      width: 70%;
+    }
+  
+    .main-title-cont-about {
+      margin: 0 auto;
+    }
+  
+    .desc-container-about {
+      width: 85%;
+      max-width: 1000px;
+      padding: 1.5em 3em;
+    }
+  
+    .concert-location {
+      font-size: 1.25rem;
+    }
+  
+    .concert-contact-cont {
+      max-width: 800px;
+    }
+  
+    .concert-contact,
+    .concert-email-par {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  
+    .concert-email-par span {
+      font-size: 1.125rem;
+    }
+  
+    .concert-email-par i {
+      margin-left: 4px;
+      font-size: 0.9rem;
+    }
+  
+    .logo-section-cont {
+      max-width: 800px;
+      margin-bottom: 2em;
+    }
+  
+    .logo-section-logo {
+      margin: 1em auto;
+    }
+  
+    .past-concert-cont {
+      max-width: 1000px;
+    }
+  
+    .past-concert .row {
+      gap: 1.5em;
+      justify-content: center;
+      margin: 3em auto;
+    }
+  
+    .footer {
+      background: var(--secondary-color);
+    }
+  
+    .footer-about {
+      background: var(--primary-color);
+      color: var(--secondary-color);
+    }
+  }
   
