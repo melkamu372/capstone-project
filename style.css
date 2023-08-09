@@ -838,4 +838,11 @@ button {
     justify-content: center;
     margin-left: 12%;
   }
+
+  .footer-center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
 }

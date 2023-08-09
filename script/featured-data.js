@@ -34,7 +34,7 @@ const musiciansList = document.querySelector('.featured-musicians-list');
 const more = document.querySelector('.more-btn');
 const less = document.querySelector('.less-btn');
 
-const speaker = function () {
+const speaker = () => {
   for (let index = 0; index < featuredMusicians.length; index += 1) {
     musiciansList.innerHTML += `
           
