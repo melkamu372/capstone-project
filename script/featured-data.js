@@ -40,8 +40,8 @@ const speaker = function () {
           
     <article class="col musician-card">
     <div class="musician-img-cont">
-       <img src="/assets/backgrounds/feature-mobile-bg.jpg" alt="musician-img" class="musician-mobile-back-img" id="musician-back-img">
-        <img src="/assets/backgrounds/feature-bg.jpg" alt="musician-img" class="musician-desktop-back-img "  id="musician-back-img">
+       <img src="./assets/backgrounds/feature-mobile-bg.jpg" alt="musician-img" class="musician-mobile-back-img" id="musician-back-img">
+        <img src="./assets/backgrounds/feature-bg.jpg" alt="musician-img" class="musician-desktop-back-img "  id="musician-back-img">
         <img  src="${featuredMusicians[index].image}" alt="musician-img" class="musician-img" id="musician-img1">
     </div>
     <div class="musician-desc">
