@@ -833,4 +833,9 @@ button {
     background: var(--primary-color);
     color: var(--secondary-color);
   }
+
+  .about-footer-logo {
+    justify-content: center;
+    margin-left: 12%;
+  }
 }
