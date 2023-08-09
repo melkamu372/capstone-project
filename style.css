@@ -277,7 +277,60 @@ button {
 }
 
 .musician-img-cont {
+  position: relative;
+  top: -50px;
+  left: 0;
   width: 50%;
+}
+
+.musician-img {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  width: 80%;
+}
+
+.musician-mobile-back-img {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 50%;
+}
+
+.feature-btn {
+  display: block;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.more-btn,
+.less-btn {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--color-light-gray);
+  border-radius: 4px;
+  background-color: var(--color-white);
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  color: var(--color-black);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: -5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.musician-desktop-back-img,
+.more-btn {
+  display: none;
+}
+
+.btn-icon {
+  margin-left: 1rem;
+  color: #ec5242;
 }
 
 .musician-desc {
@@ -286,6 +339,7 @@ button {
 
 .musician-name {
   font-size: 1.125rem;
+  margin-top: 3px;
 }
 
 .musician-title,
@@ -559,6 +613,26 @@ button {
     gap: 2.5rem;
   }
 
+  .musician-mobile-back-img,
+  .feature-btn {
+    display: none;
+  }
+
+  .musician-desktop-back-img {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 50%;
+  }
+
+  .musician-img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 80%;
+  }
+
   .home {
     text-align: right;
     position: absolute;
@@ -668,6 +742,7 @@ button {
 
   .musician-name {
     font-size: 1.25rem;
+    margin-top: 30px;
   }
 
   .musician-title,

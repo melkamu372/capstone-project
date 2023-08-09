@@ -7,17 +7,17 @@ const featuredMusicians = [{
   name: 'Teddy Afro',
   image: './assets/features/teddy.jpg',
   title: 'An Ethiopian singer-songwriter',
-  detail: 'Tewodros Kassahun Germamo known professionally as Teddy Afro. Known by his revolutionary songs and political dissent sentiment,most significant Ethiopian artists of all time',
+  detail: 'Tewodros Kassahun Germamo known professionally as Teddy Afro. Known by his revolutionary songs and political dissent sentiment,most significant Ethiopian artists.',
 }, {
   name: 'Mulatu Astatke',
   image: './assets/features/mulatu.jpg',
   title: 'Father of "Ethio-jazz"',
-  detail: 'An Ethiopian musician and arranger considered as the father of "Ethio-jazz". Born in Jimma, Mulatu was musically trained in London, New York City, and Boston where he combined his jazz and Latin music interests with traditional Ethiopian music',
+  detail: 'An Ethiopian musician and arranger considered as the father of "Ethio-jazz".Trained in London, New York City, and Boston where he combined his jazz and Latin music  with traditional Ethiopian music',
 }, {
   name: 'Neway Debebe',
   image: './assets/features/neway.jpg',
   title: 'Singer and songwriter',
-  detail: 'An Ethiopian singer and songwriter. Neway became popular after releasing his first debut album, recorded by the Tango Music shop, in 1970s with a local band called the Roha Band. Following this, Neway released more than five studio albums.',
+  detail: 'An Ethiopian singer and songwriter. Neway became popular after releasing his first debut album, recorded by the Tango Music shop, in 1970s with a local band called the Roha Band.',
 }, {
   name: 'Rophnan Nuri Muzeyin',
   image: './assets/features/rofnan.jpg',
@@ -30,23 +30,67 @@ const featuredMusicians = [{
   detail: 'A renowned iconic female singer who has actively dominated the Ethiopian music industry for the last 3 decades. She has received several national awards and international recognitions.',
 }];
 
-const musicianName = document.querySelectorAll('.musician-name');
-const musicianImage = document.querySelectorAll('.musician-img');
-const musicianTitle = document.querySelectorAll('.musician-title');
-const musicianDetail = document.querySelectorAll('.musician-detail');
+const musiciansList = document.querySelector('.featured-musicians-list');
+const more = document.querySelector('.more-btn');
+const less = document.querySelector('.less-btn');
 
-for (let i = 0; i < musicianName.length; i += 1) {
-  musicianName[i].textContent = featuredMusicians[i].name;
-}
+const speaker = function () {
+  for (let index = 0; index < featuredMusicians.length; index += 1) {
+    musiciansList.innerHTML += `
+          
+    <article class="col musician-card">
+    <div class="musician-img-cont">
+       <img src="/assets/backgrounds/feature-mobile-bg.jpg" alt="musician-img" class="musician-mobile-back-img" id="musician-back-img">
+        <img src="/assets/backgrounds/feature-bg.jpg" alt="musician-img" class="musician-desktop-back-img "  id="musician-back-img">
+        <img  src="${featuredMusicians[index].image}" alt="musician-img" class="musician-img" id="musician-img1">
+    </div>
+    <div class="musician-desc">
+        <h4 class="musician-name" id="musician-name1">${featuredMusicians[index].name}</h4>
 
-for (let i = 0; i < musicianImage.length; i += 1) {
-  musicianImage[i].src = featuredMusicians[i].image;
-}
+        <p class="musician-title" id="musician-title1">${featuredMusicians[index].title}</p>
 
-for (let i = 0; i < musicianTitle.length; i += 1) {
-  musicianTitle[i].textContent = featuredMusicians[i].title;
-}
+        <div class="line line2"></div>
 
-for (let i = 0; i < musicianDetail.length; i += 1) {
-  musicianDetail[i].textContent = featuredMusicians[i].detail;
-}
+        <p class="musician-detail" id="musician-detail1">${featuredMusicians[index].detail}</p>
+    </div>
+</article>
+            `;
+  }
+};
+
+window.addEventListener('load', speaker);
+
+// More button
+let currentItems = 2;
+
+more.addEventListener('click', () => {
+  currentItems = 2;
+  const moreSpeakers = [...document.querySelectorAll('.musician-card')];
+
+  for (let index = currentItems; index < moreSpeakers.length; index += 1) {
+    moreSpeakers[index].style.display = 'flex';
+  }
+
+  currentItems += 4;
+
+  if (currentItems >= moreSpeakers.length) {
+    more.style.display = 'none';
+    less.style.display = 'flex';
+  }
+});
+
+// Less button
+less.addEventListener('click', () => {
+  const moreSpeakers = [...document.querySelectorAll('.musician-card')];
+
+  for (let index = 2; index < moreSpeakers.length; index += 1) {
+    moreSpeakers[index].style.display = 'none';
+  }
+
+  currentItems -= 4;
+
+  if (currentItems <= 2) {
+    more.style.display = 'flex';
+    less.style.display = 'none';
+  }
+});
