@@ -1,6 +1,17 @@
+<br>
 <a name="readme-top"></a>
+  <h1 align="center">
+ 🎯  JANO Concert Ethiopia Capstone Project <a name="about-project"></a>
+  </h1>
+
+  <p align="">
+    The JANO Concert Ethiopia is a once-in-a-lifetime experience. Don't miss out on your chance to see JANO live.
+
+![Downloads](https://img.shields.io/github/downloads/melkamu372/capstone-project/total) ![Contributors](https://img.shields.io/github/contributors/melkamu372/capstone-project?color=dark-green) ![Forks](https://img.shields.io/github/forks/melkamu372/capstone-project?style=social) ![Stargazers](https://img.shields.io/github/stars/melkamu372/capstone-project?style=social) ![Issues](https://img.shields.io/github/issues/melkamu372/capstone-project) 
+
+
 <div align="">
- <h1> 🎯  Ethio-Concert Capstone Project</h1>
+ <h1></h1>
 </div>
 # 📗 Table of Contents
 
@@ -24,9 +35,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
- #   🎯 Ethio-Concert : Capstone Project <a name="about-project"></a>
+ #   🎯 JANO Concert Ethiopia Capstone Project <a name="about-project"></a>
 
-**Ethio-Concert**  is a website for a concert that displays a detailed description of the concert schedules,main programs,featured players and partners.
+**JANO Concert Ethiopia**  is a website for a concert that displays a detailed description of the concert schedules,main programs,featured players and partners.
 The content is developed using a variety of technologies, including HTML, CSS, and JavaScript. The content is also responsible for mobile and desktop users that pepople can easily access it.
 
 ## 💻 Built With <a name="built-with"></a>
@@ -62,7 +73,9 @@ The content is developed using a variety of technologies, including HTML, CSS, a
 - **Main Programs**
 - **Feature Speakers**
 ## 👁 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://melkamu372.github.io/capstone-project/) 
+<a href="https://melkamu372.github.io/capstone-project/" target="_blank">
+<img src="https://img.shields.io/badge/live-%231E77B5.svg?&style=for-the-badge&width=50%" alt="live" />
+</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
