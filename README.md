@@ -35,7 +35,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
- #   🎯 JANO Concert Ethiopia Capstone Project <a name="about-project"></a>
+ ##  JANO Concert Ethiopia Capstone Project <a name="about-project"></a>
 
 **JANO Concert Ethiopia**  is a website for a concert that displays a detailed description of the concert schedules,main programs,featured players and partners.
 The content is developed using a variety of technologies, including HTML, CSS, and JavaScript. The content is also responsible for mobile and desktop users that pepople can easily access it.
