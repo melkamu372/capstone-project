@@ -99,8 +99,7 @@ Clone this repository to your desired folder:
  
 ### Install
 
-Install this project with: <a style="float: right;margin-right:1.5rem" href="#readme-top">Back to top</a>
-
+Install this project with: 
 ```
 npm install
 ```
