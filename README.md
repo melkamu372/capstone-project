@@ -9,6 +9,7 @@
 
 ![Downloads](https://img.shields.io/github/downloads/melkamu372/capstone-project/total) ![Contributors](https://img.shields.io/github/contributors/melkamu372/capstone-project?color=dark-green) ![Forks](https://img.shields.io/github/forks/melkamu372/capstone-project?style=social) ![Stargazers](https://img.shields.io/github/stars/melkamu372/capstone-project?style=social) ![Issues](https://img.shields.io/github/issues/melkamu372/capstone-project) 
 
+![image](https://github.com/melkamu372/capstone-project/assets/47281626/37466bd2-daca-49f2-82c0-13065a31827c)
 
 <div align="">
  <h1></h1>
